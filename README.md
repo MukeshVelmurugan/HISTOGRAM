@@ -37,8 +37,8 @@ Calculate and display the equalized image using equalizeHist()
 import cv2
 import matplotlib.pyplot as plt
 
-gray_image = cv2.imread('grayscale.jpeg')
-color_image = cv2.imread('color.jpeg')
+gray_image = cv2.imread('download.jpg')
+color_image = cv2.imread('ok.jpg')
 plt.imshow(gray_image)
 plt.show()
 plt.imshow(color_image)
